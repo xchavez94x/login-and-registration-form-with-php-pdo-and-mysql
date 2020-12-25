@@ -1,6 +1,6 @@
 <?php 
     require_once('controllers/Admin.php');
-    require_once('config/config.php');
+    require_once('models/config.php');
     
     $config = new DataBase();
     $register = new Admin($config->getConnection());

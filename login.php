@@ -2,7 +2,7 @@
 <?php
 error_reporting(0);
     require_once "controllers/Admin.php";
-    require_once "config/config.php";
+    require_once "models/config.php";
 
     $database = new DataBase() ;
     $admin = new Admin($database->getConnection());
